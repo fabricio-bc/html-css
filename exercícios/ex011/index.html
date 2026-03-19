@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+       <p>Tente abrir esse site dm vários dipositivos diferentes ou diminua o tamanho do se navegador.</p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 950px)" srcset="imagens/foto-m.png" type="image/png">
+         <img src="imagens/foto-g.png" alt="Imagem flexível">
+    </picture>
+    <h1>Reproduzindo Aúdios</h1>
+       <p>Vamos aprender á reproduzir aúdios em HTML5.</p>
+        <audio preload="metadata" autoplay controls loop>
+             <source src="midia/viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3" type="audio/mpeg">
+             <source src="midia/viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.ogg" type="audio/ogg">
+             <source src="midia/viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.wav" type="audio/wav">
+             <p>Infelizmente seu navegador não consegue reproduzir aúdio <a href="midia/viralaudio-descent-whoosh-long-cinematic-sound-effect-405921.mp3">Clique aqui para baixar o arqúivo MP3</a>
+        </audio>
+</body>
+</html>

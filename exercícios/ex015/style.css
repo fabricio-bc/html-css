@@ -1,0 +1,13 @@
+body {
+     background-color: rgb(252, 231, 141);
+     font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(209, 10, 10);
+}
+h2 {
+   color: rgb(226, 176, 10);
+}
+p{
+  text-align: justify;
+}
