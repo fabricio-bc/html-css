@@ -15,8 +15,20 @@ header > h1{
     text-align: center;
     padding: 10px;
 }
-menu{
+#burguer{
+    background: green;
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#burguer:hover{
+    background-color: rgba(255, 255, 255, 0.877);
+    color: black;
+}
+menu{
+    display: none;
 }
 menu > ul{
     list-style-type: none;
@@ -34,13 +46,14 @@ menu a:hover{
     background-color: rgba(43, 119, 43, 0.247);
 }
 main{
-    width: 90vw;
+    width: 86vw;
     background-color: white;
     margin: auto;
     padding: 20px;
     border-radius: 10px;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
+    ;
 }
 article > h2{
     padding-bottom: 20px;
