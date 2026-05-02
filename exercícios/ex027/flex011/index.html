@@ -12,18 +12,28 @@
         .item{
             background-color: lightsalmon;
             border: 1px solid black;
-            flex-basis: 330px;
-            flex-shrink: 1;
-            flex-grow: 1;
+            flex-basis: 300px;
             text-align: center;
+        }
+        #a{
+          flex-shrink: 10; 
+          flex-grow: 1;
+        }
+        #b{
+          flex-shrink: 1;
+          flex-grow: 1;
+        }
+        #c{
+          flex-shrink: 2;
+          flex-grow: 10;
         }
     </style>
     <title>FlexBox</title>
 </head>
 <body>
     <div class="conteiner">
-         <div class="item">A</div>
-         <div class="item">B</div>
-         <div class="item">C</div>
+         <div class="item" id="a">A</div>
+         <div class="item" id="b">B</div>
+         <div class="item" id="c">C</div>
 </body>
 </html>
